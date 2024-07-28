@@ -1,0 +1,10 @@
+
+terraform {
+  cloud {
+    organization = "Octobit8-Private-Limited"
+
+    workspaces {
+      name = "qa-be"
+    }
+  }
+}
