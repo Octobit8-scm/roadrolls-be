@@ -34,15 +34,15 @@ git clone
 
 
 # Infrastructure as code
-
-
-
-
-
-
-
-
-
+1. Set up Terraform Cloud Workspaces for 'dev', 'qa' and 'prod' branch for ROADROLLS project. 
+2. Set up Identity Provider in AWS and Configure IAM Role. 
+3. Add Environment Variables to the Terraform Cloud and integrate with AWS. 
+4. Add GPG keys, SSH keys, and make sure commits are verified. 
+5. Create branches from JIRA and configure workspaces in Terraform Cloud.
+6. Import updated files from the VS editor and RUN them in their respective branches. We're provisioning infrastructure for building VPC using Terraform Cloud.
+7. Ensure JIRA, GitHub repositories, Visual Studio Code editor and AWS server are all in sync and integrated without any hiccups. 
+7. Check AWS Management Console if the infrastructure is up and running.
+[[ Link for reference : https://app.terraform.io/app/Octobit8-Private-Limited/workspaces ]]
 
 # Containerization
 1. Ensure Docker is installed and running on your machine. You can verify the installation by running:
